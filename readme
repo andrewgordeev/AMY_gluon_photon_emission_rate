@@ -1,0 +1,9 @@
+Mathematica code to compute the gluon and photon emission rate in a quark-gluon plasma, at leading order, in the AMY formalism.
+
+Based on arXiv:hep-ph/0111107, arXiv:hep-ph/0204343, arXiv:hep-ph/0211036, arXiv:hep-ph/0309332
+
+The photon code, "AMY_photon.nb", is well documented.  The gluon code is not documented at all.
+
+The algorithm to solve the AMY integral kernel is extremely inefficiently implemented, but multiple people showed interest in this code over the years, and I have found it useful myself. I figure there is no harm making it public. Feel free to improve upon it.
+
+Many thanks to Igor Kozlov and Hualong Gervais and probably other people back in my McGill days who helped debug this code and improve it.
