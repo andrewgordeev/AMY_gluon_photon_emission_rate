@@ -6,4 +6,6 @@ The photon code, "AMY_photon.nb", is well documented.  The gluon code is not doc
 
 The algorithm to solve the AMY integral kernel is extremely inefficiently implemented, but multiple people showed interest in this code over the years, and I have found it useful myself. I figure there is no harm making it public. Feel free to improve upon it.
 
+The integral equation is solved in impact parameter space as explained in Section 3 of arXiv:hep-ph/0211036 . The solver follows the logic of Section 4 of that same paper, but follows a less efficient approach to fix the normalisation of the solution.
+
 Many thanks to Igor Kozlov and Hualong Gervais and probably other people back in my McGill days who helped debug this code and improve it.
