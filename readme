@@ -8,4 +8,4 @@ The algorithm to solve the AMY integral kernel is extremely inefficiently implem
 
 The integral equation is solved in impact parameter space as explained in Section 3 of arXiv:hep-ph/0211036 . The solver follows the logic of Section 4 of that same paper, but follows a less efficient approach to fix the normalisation of the solution.
 
-Many thanks to Igor Kozlov and Hualong Gervais and probably other people back in my McGill days who helped debug this code and improve it.
+Many thanks to Tianyu Dai for validating the gluon emission code, and to Igor Kozlov and Hualong Gervais and probably other people back in my McGill days who helped debug this code and improve it in the early days.
