@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[    170294,       4428]
-NotebookOptionsPosition[    164883,       4270]
-NotebookOutlinePosition[    165358,       4287]
-CellTagsIndexPosition[    165315,       4284]
+NotebookDataLength[    170338,       4428]
+NotebookOptionsPosition[    164927,       4270]
+NotebookOutlinePosition[    165402,       4287]
+CellTagsIndexPosition[    165359,       4284]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -4201,7 +4201,7 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"originalTable", "=", 
      RowBox[{"Import", "[", 
-      RowBox[{"\"\<output_linear.txt\>\"", ",", "\"\<Table\>\""}], "]"}]}], 
+      RowBox[{"\"\<output_lin.txt\>\"", ",", "\"\<Table\>\""}], "]"}]}], 
     ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"modifiedTable", "=", 
@@ -4232,12 +4232,11 @@ Cell[BoxData[
                RowBox[{"#2", "[", 
                 RowBox[{"[", "2", "]"}], "]"}], "]"}], "]"}]}], "]"}]}], 
           ")"}]}], "&"}], ",", "originalTable", ",", 
-       RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+       RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}], "\n", "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
     "Export", " ", "the", " ", "modified", " ", "table", " ", "to", " ", "a", 
-     " ", "new", " ", "text", " ", "file"}], "*)"}], "\n", 
+     " ", "new", " ", "text", " ", "file"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
     RowBox[{
     "\"\<output_lin_modified.txt\>\"", ",", "modifiedTable", ",", 
@@ -4259,7 +4258,8 @@ Cell[BoxData[
   3.914939998921328*^9, 3.9149400032161417`*^9}, {3.914943370044182*^9, 
   3.9149433710914793`*^9}, {3.9149437737128067`*^9, 3.91494381535002*^9}, {
   3.9149442226664753`*^9, 3.914944242495908*^9}, {3.914944279296139*^9, 
-  3.9149443074157743`*^9}, {3.91494521262074*^9, 3.9149452128755207`*^9}}],
+  3.9149443074157743`*^9}, {3.91494521262074*^9, 3.9149452128755207`*^9}, {
+  3.914947431736086*^9, 3.9149474330604763`*^9}}],
 
 Cell[BoxData["\<\"output_lin_modified.txt\"\>"], "Output",
  CellChangeTimes->{3.914944793241126*^9, 3.914944847806625*^9, 
@@ -4426,8 +4426,8 @@ Cell[155142, 4004, 1471, 42, 35, "Input"],
 Cell[156616, 4048, 3226, 83, 341, "Input"],
 Cell[159845, 4133, 1639, 52, 134, "Input"],
 Cell[CellGroupData[{
-Cell[161509, 4189, 3102, 72, 223, "Input"],
-Cell[164614, 4263, 241, 3, 33, "Output"]
+Cell[161509, 4189, 3146, 72, 223, "Input"],
+Cell[164658, 4263, 241, 3, 33, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
